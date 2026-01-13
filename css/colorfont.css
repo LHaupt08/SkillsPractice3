@@ -34,12 +34,13 @@ hr {
     font-weight:bold;
 }
 
-.col > p > a:link, .col > p > a:active {
+.col > p > a:link, .col > p > a:active, p.card-text a:link, p.card-text a:active {
     color:#CDE3FF;
     font-weight:bold;
 }
 
-.col > p > a:hover, .col > p > a:visited {
+.col > p > a:hover, .col > p > a:visited, p.card-text a:hover, p.card-text a:visited {
     color:#93bbf0;
     font-weight:bold;
 }
+
