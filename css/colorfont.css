@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+
+html, .maincolor {
+    background-color:#FBFBFB;
+    color:black;
+}
+
+.subcolor1 {
+    background-color:#004196;
+    color:white;
+}
+
+.subcolor2 {
+    background-color:#CDE3FF;
+    color:#0C1639;
+}
+
+.parafont, p, li {
+    font-family:"Quicksand", sans-serif;
+    font-size: 1.2rem;
+}
+
+.headfont, h1, h2, h3, h4, h5, h6 {
+    font-family:"Noto Sans", sans-serif;
+}
+
+hr {
+    border:white solid 3px;
+    width: 85%;
+    margin:auto;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.col > p > a:link, .col > p > a:active {
+    color:#CDE3FF;
+    font-weight:bold;
+}
+
+.col > p > a:hover, .col > p > a:visited {
+    color:#93bbf0;
+    font-weight:bold;
+}
